@@ -1,0 +1,94 @@
+body {
+    background-color:4CAF50;
+}
+h1 {
+    color:black;
+    
+}
+#cabecera {
+    width:100%;
+    height:25%;
+    background-color:rgb(4, 107, 4);
+    text-align: center;
+    margin-top: 2%;
+    padding: auto;
+}
+.menu {
+    float:   left;
+    width:15%;
+    height:50%;
+    background-color:66BB6A;
+    padding: 1%;
+}
+a{
+    font-size: 25;
+    color: black;
+}
+#tabla {
+    border: black 3px solid;
+    text-align: center;
+    border-collapse: collapse;
+    margin:0 auto;
+    background-color:B9F6CA;
+    
+
+}
+td{
+    border: black 1px solid;
+}
+#pie{
+    float:left;
+    width:100%;
+    height:15%;
+    background-color:81C784;
+    text-align: center;
+    
+}
+.docente{
+    float:    left;
+    text-align: center;
+    width:83%;
+    height:54%;
+    background-color:00C853;
+}
+.estudiante{
+    float:    left;
+    text-align: center;
+    width:83%;
+    height:54%;
+    background-color:00C853;
+    
+}
+p{
+    font-size: 20;
+}
+.ingresar{
+    float:    left;
+    width:83%;
+    height:54%;
+    background-color:43A047;
+    text-align: center;
+    
+    
+}
+label{
+    font-size: 25;
+}
+input{
+    font-size:100%;
+    display:inline-block;
+    border-radius:3px;
+}
+#form{
+    margin-top: 2%;
+}
+#btn{
+    background: transparent;
+    border: 2px 1B5E20;
+    border-radius: 6px;
+    
+}
+#btn:hover{
+    background-color: black;
+      color: white;
+}
