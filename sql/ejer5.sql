@@ -9,7 +9,7 @@ sum(case when depto='06' then prom else 0 end) TJ,
 sum(case when depto='07' then prom else 0 end) SC,
 sum(case when depto='08' then prom else 0 end) BE,
 sum(case when depto='09' then prom else 0 end) PA
-from (SELECT sigla,depto, avg(prom) as prom
+from (SELECT sigla,depto, round(avg(prom),2) as prom
 		from persona,(SELECT sigla,ci,notafinal as prom FROM nota) tmp
 		where persona.ci=tmp.ci
 		group by depto , sigla
